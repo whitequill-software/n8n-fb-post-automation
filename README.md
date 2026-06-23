@@ -1,6 +1,6 @@
-# Facebook Post Automation — n8n Workflow
+# Facebook Post Automation — Make.com Workflow
 
-A daily-triggered n8n workflow that automatically picks a property image from Google Drive, generates an AI-written caption using a RAG-based knowledge base, and publishes the post to a Facebook Page.
+A daily-triggered make.com workflow that automatically picks a property image from Google Drive, generates an AI-written caption using a RAG-based knowledge base, and publishes the post to a Facebook Page.
 
 ---
 
@@ -90,7 +90,7 @@ Working and in active use for a real estate marketing workflow.
 
 This project demonstrates:
 
-- End-to-end workflow automation in n8n
+- End-to-end workflow automation in make.com
 - RAG integration for grounded, on-brand AI output
 - Real business use case (not a demo)
 - Google Drive + Facebook Graph API integration
