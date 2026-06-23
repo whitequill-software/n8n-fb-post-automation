@@ -45,7 +45,7 @@ It demonstrates how AI automation can handle a real, recurring business task end
 
 ## Tech Stack
 
-- **Automation:** n8n
+- **Automation:** make.com
 - **AI:** LLM with RAG (retrieval-augmented generation)
 - **Image Source:** Google Drive
 - **Publishing:** Facebook Graph API
