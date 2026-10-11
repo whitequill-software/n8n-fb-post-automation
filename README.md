@@ -1,6 +1,6 @@
-# Facebook Post Automation — Make.com Workflow
+# Facebook Post Automation — Python, scheduled with GitHub Actions (originally n8n)
 
-A daily-triggered make.com workflow that automatically picks a property image from Google Drive, generates an AI-written caption using a RAG-based knowledge base, and publishes the post to a Facebook Page.
+Daily Facebook post automation: picks a property image from Google Drive, writes a RAG-grounded caption with an LLM, and publishes via the Graph API. Originally built in n8n, now running as a scheduled Python job on GitHub Actions.
 
 ---
 
@@ -45,7 +45,7 @@ It demonstrates how AI automation can handle a real, recurring business task end
 
 ## Tech Stack
 
-- **Automation:** make.com
+- **Automation:** Python, scheduled with GitHub Actions (originally n8n)
 - **AI:** LLM with RAG (retrieval-augmented generation)
 - **Image Source:** Google Drive
 - **Publishing:** Facebook Graph API
@@ -82,7 +82,7 @@ Post published to Facebook Page
 
 ## Current Status
 
-Working and in active use for a real estate marketing workflow.
+Ran daily for real estate marketing. Migrated from n8n to Python + GitHub Actions. Currently failing with a runtime error, being fixed.
 
 ---
 
@@ -90,7 +90,7 @@ Working and in active use for a real estate marketing workflow.
 
 This project demonstrates:
 
-- End-to-end workflow automation in make.com
+- End-to-end workflow automation
 - RAG integration for grounded, on-brand AI output
 - Real business use case (not a demo)
 - Google Drive + Facebook Graph API integration
